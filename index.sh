@@ -14,7 +14,8 @@ shopt -s dotglob
 cd dotfiles
 for f in *;
 do
-  if [ -f ~/$(f) ]; then
+  echo $f;
+  if [ -f ~/$f ]; then
 
     echo "Overwriting $f. Skip this file? (y/n)";
     read cont;
@@ -22,8 +23,8 @@ do
       continue;
     fi
 
-    rm ~/$(f);
+    rm ~/$f;
   fi
 
-  ln -s $(PWD)$(f) ~/$(f)
+  ln -s $(PWD)$f  ~/$f
 done
