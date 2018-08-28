@@ -1,10 +1,6 @@
 #!/bin/bash
 
 
-
-
-# TODO: symlink the dotfiles to the home directory.
-
 shopt -s dotglob
 
 # we cd so theres nicer filenames
