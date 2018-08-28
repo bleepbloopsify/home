@@ -53,16 +53,3 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
-
-export PATH='/Applications/IDA Pro 7.0/ida64.app/Contents/MacOS':$PATH
-export PATH='/Applications/Binary Ninja.app/Contents/MacOS':$PATH
-export IDAPATH='/Applications/IDA Pro 7.0/ida64.app/Contents/MacOS'
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-export GOPATH=$(go env GOPATH)
-export PATH=$GOPATH/bin:$PATH
-export PATH=$HOME/.fastlane/bin:$PATH
