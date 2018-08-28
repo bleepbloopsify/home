@@ -1,0 +1,33 @@
+{
+    "eslint.packageManager": "yarn",
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "underline-thin",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+    },
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.formatOnSave": false,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.tabSizing": "shrink",
+    "window.clickThroughInactive": false,
+    "prettier.eslintIntegration": true,
+    "eslint.autoFixOnSave": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.tree.horizontalScrolling": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.tabSize": 2,
+}

@@ -63,3 +63,13 @@ if [ -e ~/.oh-my-zsh/ ]; then
   cd .. # done with oh-my-zsh
 fi
 
+VSCODE_LOCATION=~/Library/Application\ Support/Code
+
+if [ -e "$VSCODE_LOCATION" ]; then
+  # vscode is installed so we copy our config over.
+
+  rm "${VSCODE_LOCATION}/User/keybindings.json" "${VSCODE_LOCATION}/User/settings.json";
+  
+  ln -s $(PWD)/vscode/settings.json "${VSCODE_LOCATION}/User/settings.json";
+  ln -s $(PWD)/vscode/keybindings.json "${VSCODE_LOCATION}/User/keybindings.json";
+fi
