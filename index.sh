@@ -63,7 +63,7 @@ if [ -e ~/.oh-my-zsh/ ]; then
       rm ~/.oh-my-zsh/custom/themes/$f
     fi
 
-    ln -s $(PWD)$f ~/.oh-my-zsh/custom/themes/$f
+    ln -s $(PWD)/$f ~/.oh-my-zsh/custom/themes/$f
   done
 
   cd .. # done with themes.
