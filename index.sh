@@ -1,11 +1,7 @@
 #!/bin/bash
 
-# TODO: first thing to do is detect operating system.
-# We will run an enirely different suite of commands across different OS's
 
-# .vimrc (for formatting)
-# .zshrc (for plugins and themes)
-# .
+
 
 # TODO: symlink the dotfiles to the home directory.
 
