@@ -14,8 +14,7 @@ shopt -s dotglob
 cd dotfiles
 for f in *;
 do
-  echo $f;
-  if [ -f ~/$f ]; then
+  if [ -e ~/$f ]; then
 
     echo "Overwriting $f. Skip this file? (y/n)";
     read cont;
@@ -24,7 +23,9 @@ do
     fi
 
     rm ~/$f;
+  else
+    echo "$f does not exist. Creating symlink.";
   fi
 
-  ln -s $(PWD)$f  ~/$f
+  ln -s $(PWD)/$f  ~/$f
 done
