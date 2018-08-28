@@ -52,18 +52,14 @@ if [ -e ~/.oh-my-zsh/ ]; then
 
   cd themes
 
-  if [ ! -e ~/.oh-my-zsh/custom/themes ]; then
-    mkdir ~/.oh-my-zsh/custom/themes;
-  fi
-
   for f in *
   do
 
-    if [ -e ~/.oh-my-zsh/custom/themes/$f ]; then # if its already there remove it for a fresh link
-      rm ~/.oh-my-zsh/custom/themes/$f
+    if [ -e ~/.oh-my-zsh/themes/$f ]; then # if its already there remove it for a fresh link
+      rm ~/.oh-my-zsh/themes/$f
     fi
 
-    ln -s $(PWD)/$f ~/.oh-my-zsh/custom/themes/$f
+    ln -s $(PWD)/$f ~/.oh-my-zsh/themes/$f
   done
 
   cd .. # done with themes.
