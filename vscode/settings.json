@@ -1,6 +1,6 @@
 {
     "eslint.packageManager": "yarn",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vscode-icons",
     "editor.renderWhitespace": "boundary",
@@ -30,4 +30,5 @@
         "suppressShowKeyBindingsNotice": true
     },
     "editor.tabSize": 2,
+    "git.enableCommitSigning": true,
 }
