@@ -21,7 +21,7 @@ do
     echo "$f does not exist. Creating symlink.";
   fi
 
-  ln -s $(PWD)/$f  ~/$f # soft link we aren't barbarians
+  ln -s $(pwd)/$f  ~/$f # soft link we aren't barbarians
 done
 
 cd .. # and we're done come back.
@@ -32,7 +32,7 @@ if [ ! -e ~/.oh-my-zsh/ ]; then
   echo "Would you like to install oh-my-zsh as well? (y/n)"
   read cont;
 
-  if [ "$cont" = "n"]; then
+  if [ "$cont" = "n" ]; then
     echo "Ok";
   else
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
@@ -51,7 +51,7 @@ if [ -e ~/.oh-my-zsh/ ]; then
       rm ~/.oh-my-zsh/themes/$f
     fi
 
-    ln -s $(PWD)/$f ~/.oh-my-zsh/themes/$f
+    ln -s $(pwd)/$f ~/.oh-my-zsh/themes/$f
   done
 
   cd .. # done with themes.
@@ -65,7 +65,7 @@ if [ -e "$VSCODE_LOCATION" ]; then
   # vscode is installed so we copy our config over.
 
   rm "${VSCODE_LOCATION}/User/keybindings.json" "${VSCODE_LOCATION}/User/settings.json";
-  
+
   ln -s $(PWD)/vscode/settings.json "${VSCODE_LOCATION}/User/settings.json";
   ln -s $(PWD)/vscode/keybindings.json "${VSCODE_LOCATION}/User/keybindings.json";
 fi
