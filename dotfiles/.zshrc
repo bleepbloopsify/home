@@ -54,4 +54,10 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source .profile
+source ~/.profile
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[[ -f /Users/pa_ssion/.config/yarn/global/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/pa_ssion/.config/yarn/global/node_modules/tabtab/.completions/electron-forge.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

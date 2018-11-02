@@ -9,9 +9,9 @@ else
 fi
 
 if [ "$SESSION_TYPE" = "remote/ssh" ]; then
-  AESTHETIC='%(!.♝.♕)'
+  AESTHETIC="$(hostname) %(!.♝.♕)"
 else
-  AESTHETIC='%(!.♞.♘)'
+  AESTHETIC="%(!.♞.♘)"
 fi
 
 # CMDPROMPT='%(!.#.$)'
