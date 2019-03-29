@@ -1,6 +1,5 @@
 {
-    "eslint.packageManager": "yarn",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vscode-icons",
     "editor.renderWhitespace": "boundary",
@@ -14,7 +13,6 @@
     },
     "editor.minimap.enabled": false,
     "editor.cursorBlinking": "solid",
-    "editor.formatOnSave": false,
     "workbench.fontAliasing": "antialiased",
     "workbench.sideBar.location": "right",
     "workbench.editor.labelFormat": "short",
@@ -28,7 +26,6 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "editor.tabSize": 2,
     "git.enableCommitSigning": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "git.path": "/usr/bin/git",
@@ -36,4 +33,12 @@
         "*.tex": "tex"
     },
     "breadcrumbs.enabled": true,
+    "editor.detectIndentation": false,
+    "debug.inlineValues": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.run": "onSave",
+    "javascript.format.enable": false,
+    "prettier.printWidth": 140,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "bounded",
 }

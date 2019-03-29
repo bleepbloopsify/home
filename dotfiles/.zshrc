@@ -61,3 +61,4 @@ source ~/.profile
 [[ -f /Users/pa_ssion/.config/yarn/global/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/pa_ssion/.config/yarn/global/node_modules/tabtab/.completions/electron-forge.zsh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
