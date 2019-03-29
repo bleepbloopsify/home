@@ -44,6 +44,7 @@ if [ ! -e ~/.oh-my-zsh/ ]; then
     echo "Ok";
   else
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
+    mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
   fi
 fi
 
