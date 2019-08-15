@@ -1,7 +1,7 @@
 {
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.renderWhitespace": "boundary",
     "files.exclude": {
         "**/.git": true,
@@ -37,8 +37,17 @@
     "debug.inlineValues": true,
     "eslint.alwaysShowStatus": true,
     "eslint.run": "onSave",
-    "javascript.format.enable": false,
+    "javascript.format.enable": true,
     "prettier.printWidth": 140,
-    "editor.tabSize": 2,
     "editor.wordWrap": "bounded",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "'FiraCode-Retina'",
+    "editor.fontLigatures": true,
+    "eslint.packageManager": "yarn",
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[c]": {
+      "editor.defaultFormatter": "xaver.clang-format"
+    },
 }
