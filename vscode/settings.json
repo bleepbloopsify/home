@@ -1,7 +1,5 @@
 {
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Material Theme Palenight High Contrast",
-    "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "material-icon-theme",
     "editor.renderWhitespace": "boundary",
     "files.exclude": {
         "**/.git": true,
@@ -22,7 +20,7 @@
     "eslint.autoFixOnSave": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "workbench.tree.horizontalScrolling": true,
+    "workbench.list.horizontalScrolling": true,
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
@@ -50,4 +48,22 @@
     "[c]": {
       "editor.defaultFormatter": "xaver.clang-format"
     },
+    "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[go]": {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      }
+    },
+    "go.gocodeAutoBuild": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.gotoSymbol.includeImports": true,
+    "go.formatTool": "goimports",
+    "debug.console.fontSize": 18,
+    "window.zoomLevel": 0,
+    "workbench.settings.openDefaultKeybindings": true,
+    "go.buildOnSave": "off",
+    "workbench.editor.showTabs": false,
 }

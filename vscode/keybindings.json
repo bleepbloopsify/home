@@ -1,68 +1,115 @@
 // Place your key bindings in this file to overwrite the defaults
-[
-    {
-        "key": "cmd+d",
-        "command": "workbench.action.splitEditor"
-    },
-    {
-        "key": "cmd+\\",
-        "command": "-workbench.action.splitEditor"
-    },
-    {
-        "key": "shift+cmd+d",
-        "command": "workbench.action.splitEditorOrthogonal"
-    },
-    {
-        "key": "cmd+k cmd+\\",
-        "command": "-workbench.action.splitEditorOrthogonal"
-    },
-    {
-      "key": "alt+d",
-      "command": "editor.action.addSelectionToNextFindMatch",
-      "when": "editorFocus"
-    },
-    {
-      "key": "cmd+d",
-      "command": "-editor.action.addSelectionToNextFindMatch",
-      "when": "editorFocus"
-    },
-    {
-      "key": "ctrl+cmd+left",
-      "command": "-workbench.action.terminal.resizePaneLeft",
-      "when": "terminalFocus"
-    },
-    {
-      "key": "ctrl+cmd+left",
-      "command": "-workbench.action.moveEditorToPreviousGroup"
-    },
-    {
-      "key": "ctrl+cmd+up",
-      "command": "workbench.action.navigateUp"
-    },
-    {
-      "key": "ctrl+cmd+left",
-      "command": "workbench.action.navigateLeft"
-    },
-    {
-      "key": "ctrl+cmd+down",
-      "command": "workbench.action.navigateDown"
-    },
-    {
-      "key": "ctrl+cmd+right",
-      "command": "workbench.action.navigateRight"
-    },
-    {
-      "key": "ctrl+pagedown",
-      "command": "-scrollLineDown",
-      "when": "textInputFocus"
-    },
-    {
-      "key": "ctrl+pageup",
-      "command": "-scrollLineUp",
-      "when": "textInputFocus"
-    },
-    {
-      "key": "ctrl+cmd+right",
-      "command": "-workbench.action.moveEditorToNextGroup"
-    }
+[{
+    "key": "cmd+d",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "workbench.action.splitEditorOrthogonal"
+  },
+  {
+    "key": "cmd+k cmd+\\",
+    "command": "-workbench.action.splitEditorOrthogonal"
+  },
+  {
+    "key": "alt+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+cmd+left",
+    "command": "-workbench.action.terminal.resizePaneLeft",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+cmd+left",
+    "command": "-workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+cmd+up",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+cmd+left",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+cmd+down",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "ctrl+cmd+right",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "-scrollLineDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "-scrollLineUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+shift+cmd+-",
+    "command": "editor.fold",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+=",
+    "command": "-editor.unfold",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
 ]
