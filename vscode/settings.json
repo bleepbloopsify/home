@@ -62,8 +62,11 @@
     "go.gotoSymbol.includeImports": true,
     "go.formatTool": "goimports",
     "debug.console.fontSize": 18,
-    "window.zoomLevel": 0,
-    "workbench.settings.openDefaultKeybindings": true,
+    "window.zoomLevel": 1,
     "go.buildOnSave": "off",
-    "workbench.editor.showTabs": false,
+    "workbench.editor.showTabs": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
 }
