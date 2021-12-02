@@ -1,113 +1,119 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-    "editor.renderWhitespace": "boundary",
-    "files.exclude": {
-      "**/.DS_Store": true,
-      "**/.git": true,
-      "**/.hg": true,
-      "**/.svn": true,
-      "**/CVS": true,
-      "**/node_modules": true
-    },
-    "editor.minimap.enabled": false,
-    "editor.cursorBlinking": "solid",
-    "workbench.fontAliasing": "antialiased",
-    "workbench.sideBar.location": "left",
-    "workbench.editor.labelFormat": "short",
-    "workbench.editor.tabSizing": "shrink",
-    "window.clickThroughInactive": false,
-    "prettier.eslintIntegration": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.list.horizontalScrolling": true,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "git.enableCommitSigning": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "git.path": "/usr/bin/git",
-    "files.associations": {
-        "*.tex": "tex"
-    },
-    "breadcrumbs.enabled": true,
-    "editor.detectIndentation": false,
-    "debug.inlineValues": true,
-    "eslint.alwaysShowStatus": true,
-    "eslint.run": "onSave",
-    "javascript.format.enable": true,
-    "prettier.printWidth": 140,
-    "editor.wordWrap": "bounded",
-    "editor.tabSize": 2,
-    "editor.fontFamily": "'FiraCode-Retina'",
-    "editor.fontLigatures": true,
-    "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[c]": {
-      "editor.defaultFormatter": "xaver.clang-format"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[go]": {
-      "editor.formatOnSave": true,
-      "editor.codeActionsOnSave": {
-          "source.organizeImports": true
-      }
-    },
-    "go.gocodeAutoBuild": true,
-    "go.autocompleteUnimportedPackages": true,
-    "go.gotoSymbol.includeImports": true,
-    "go.formatTool": "goimports",
-    "debug.console.fontSize": 18,
-    "go.buildOnSave": "off",
-    "workbench.editor.showTabs": true,
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    "workbench.colorTheme": "Bluloco Light",
-    "terminal.integrated.fontFamily": "monospace",
-    "editor.rulers": [
-    
-    ],
-    "cmake.configureOnOpen": true,
-    "go.toolsManagement.autoUpdate": true,
-    "mssql.connections": [
-      {
-        "server": "{{put-server-name-here}}",
-        "database": "{{put-database-name-here}}",
-        "user": "{{put-username-here}}",
-        "password": "{{put-password-here}}"
-      }
-    ],
-    "reason.codelens.unicode": false,
-    "reason.server.languages": [
-      "ocaml",
-    ],
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "eslint.probe": [
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact",
-      "html",
-      "markdown"
-    ],
-    "workbench.editorAssociations": {
-      "*.ipynb": "jupyter-notebook"
-    },
-    "python.showStartPage": false,
-    "workbench.startupEditor": "none",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "notebook.cellToolbarLocation": {
-      "default": "right",
-      "jupyter-notebook": "left"
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "vs-minimal",
+  "editor.renderWhitespace": "boundary",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/node_modules": true
+  },
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.sideBar.location": "left",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.tabSizing": "shrink",
+  "window.clickThroughInactive": false,
+  "prettier.eslintIntegration": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.list.horizontalScrolling": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "git.enableCommitSigning": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "git.path": "/usr/bin/git",
+  "files.associations": {
+    "*.tex": "tex"
+  },
+  "breadcrumbs.enabled": true,
+  "editor.detectIndentation": false,
+  "debug.inlineValues": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "javascript.format.enable": true,
+  "prettier.printWidth": 140,
+  "editor.wordWrap": "bounded",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'FiraCode-Retina'",
+  "editor.fontLigatures": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "go.gocodeAutoBuild": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.gotoSymbol.includeImports": true,
+  "go.formatTool": "goimports",
+  "debug.console.fontSize": 18,
+  "go.buildOnSave": "off",
+  "workbench.editor.showTabs": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.rulers": [],
+  "cmake.configureOnOpen": true,
+  "go.toolsManagement.autoUpdate": true,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+  "reason.codelens.unicode": false,
+  "reason.server.languages": ["ocaml"],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "markdown"],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.showStartPage": false,
+  "workbench.startupEditor": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.preferredHighContrastColorTheme": "Default Light+",
+  "[ocaml]": {
+    "editor.defaultFormatter": "ocamllabs.ocaml-platform"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.ignoreRecommendations": true,
+  "workbench.colorTheme": "Default Light+",
+  "githubPullRequests.fileListLayout": "tree",
+  "redhat.telemetry.enabled": false,
+  "bracket-pair-colorizer-2.colors": [
+    "DarkOrange",
+    "Orchid",
+    "LightSkyBlue",
+    "LawnGreen"
+  ],
+  "window.zoomLevel": 2
 }
