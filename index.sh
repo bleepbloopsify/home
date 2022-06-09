@@ -78,7 +78,3 @@ if [ -e "$VSCODE_LOCATION" ]; then
   ln -s $(PWD)/vscode/settings.json "${VSCODE_LOCATION}/User/settings.json";
   ln -s $(PWD)/vscode/keybindings.json "${VSCODE_LOCATION}/User/keybindings.json";
 fi
-
-
-git config --global user.email leon.chou@nyu.edu
-git config --global user.name "Leon Chou"

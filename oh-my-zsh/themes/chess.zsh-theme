@@ -16,7 +16,7 @@ fi
 
 # CMDPROMPT='%(!.#.$)'
 
-PROMPT='%{$FG[154]%}%c$(git_prompt_info) %{$FG[003]%}% %{$FG[045]%}'$AESTHETIC'%{$reset_color%}  '
+PROMPT='%B{$FG[154]%}%c$(git_prompt_info) %B{$FG[003]%}% %{$FG[045]%}'$AESTHETIC'%{$reset_color%}  '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$FG[062]%} [%{$FG[015]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$FG[062]%}]"

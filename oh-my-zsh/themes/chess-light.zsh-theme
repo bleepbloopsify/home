@@ -18,7 +18,7 @@ fi
 # NOTE: run `spectrum_ls` to see all available colors
 # CMDPROMPT='%(!.#.$)'
 
-PROMPT='%{$FG[045]%}%c$(git_prompt_info) %{$FG[088]%}% %{$FG[196]%}'$AESTHETIC'%{$reset_color%}  '
+PROMPT='%B%{$FG[045]%}%c$(git_prompt_info) %B%{$FG[088]%}% %B%{$FG[196]%}'$AESTHETIC'%{$reset_color%}  '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$FG[062]%} [%{$FG[01f]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$FG[062]%}]"

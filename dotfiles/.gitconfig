@@ -1,0 +1,6 @@
+[user]
+	email = leon.chou@nyu.edu
+	name = Leon Chou
+
+[alias]
+    gone = "!f() { git fetch --all --prune; git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -D; }; f"

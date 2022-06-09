@@ -38,7 +38,7 @@
   "prettier.printWidth": 140,
   "editor.wordWrap": "bounded",
   "editor.tabSize": 2,
-  "editor.fontFamily": "'FiraCode-Retina'",
+  "editor.fontFamily": "'PragmataPro Mono Liga'",
   "editor.fontLigatures": true,
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -61,8 +61,7 @@
   "go.formatTool": "goimports",
   "debug.console.fontSize": 18,
   "go.buildOnSave": "off",
-  "workbench.editor.showTabs": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "terminal.integrated.fontFamily": "monospace",
   "editor.rulers": [],
   "cmake.configureOnOpen": true,
@@ -81,7 +80,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "markdown"],
   "workbench.editorAssociations": {
@@ -115,5 +114,15 @@
     "LightSkyBlue",
     "LawnGreen"
   ],
-  "window.zoomLevel": 2
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.format.enable": true,
+  "importSorter.importStringConfiguration.hasSemicolon": false,
+  "importSorter.sortConfiguration.removeUnusedImports": true,
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 1,
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "importSorter.importStringConfiguration.trailingComma": "multiLine",
 }

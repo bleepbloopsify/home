@@ -134,9 +134,18 @@
     "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
   },
   {
-    "key": "ctrl+alt+o",
-    "command": "editor.action.organizeImports",
-    "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
   },
-  { "key": "alt+enter", "command": "editor.action.quickFix", "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly" },
+  {
+    "key": "ctrl+shift+alt+cmd+enter",
+    "command": "ocaml.evaluate-selection",
+    "when": "editorTextFocus && editorLangId == 'ocaml' || editorTextFocus && editorLangId == 'ocaml.interface' || editorTextFocus && editorLangId == 'ocaml.menhir' || editorTextFocus && editorLangId == 'ocaml.ocamllex' || editorTextFocus && editorLangId == 'reason'"
+  },
+  {
+    "key": "shift+enter",
+    "command": "-ocaml.evaluate-selection",
+    "when": "editorTextFocus && editorLangId == 'ocaml' || editorTextFocus && editorLangId == 'ocaml.interface' || editorTextFocus && editorLangId == 'ocaml.menhir' || editorTextFocus && editorLangId == 'ocaml.ocamllex' || editorTextFocus && editorLangId == 'reason'"
+  },
 ]
