@@ -27,7 +27,8 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "git.path": "/usr/bin/git",
     "files.associations": {
-        "*.tex": "tex"
+      "*.tex": "tex",
+      "*.css": "tailwindcss"
     },
     "breadcrumbs.enabled": true,
     "editor.detectIndentation": false,
@@ -110,4 +111,100 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "security.workspace.trust.untrustedFiles": "open",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
+    "github.copilot.advanced": {
+    },
+    "cSpell.enableFiletypes": [
+      "xml"
+    ],
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "redhat.telemetry.enabled": false,
+    "cSpell.userWords": [
+      "aiplomb",
+      "apikey",
+      "appengine",
+      "Beginx",
+      "blacksheep",
+      "bleepbloopsify",
+      "BROWSABLE",
+      "bufbuild",
+      "Buildx",
+      "chatgpt",
+      "Consolas",
+      "donotreply",
+      "fishplanet",
+      "gizak",
+      "godotenv",
+      "golangci",
+      "grpcweb",
+      "HTMLURL",
+      "Infof",
+      "jakejarvis",
+      "jmoiron",
+      "joho",
+      "Jsons",
+      "mailgun",
+      "maplon",
+      "mattn",
+      "Menlo",
+      "nativewind",
+      "ondevice",
+      "Oneofs",
+      "openai",
+      "paymentintent",
+      "PKCS",
+      "Playfair",
+      "proto",
+      "protobuf",
+      "protoc",
+      "protos",
+      "protosconnect",
+      "pyllamacpp",
+      "sashabaranov",
+      "Segoe",
+      "servicecontainer",
+      "sess",
+      "shellwords",
+      "signup",
+      "sqlx",
+      "sushiconveyor",
+      "tailwindcss",
+      "termui",
+      "timestamppb",
+      "tmpl",
+      "toastify",
+      "unmarshalling",
+      "upgrader",
+      "usehooks",
+      "uuidv",
+      "VARCHAR",
+      "VITE",
+      "Websockets",
+      "wght",
+      "wsproxy"
+    ],
+    "git.autofetch": true,
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "codeQL.telemetry.enableTelemetry": false,
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[proto3]": {
+      "editor.defaultFormatter": "zxh404.vscode-proto3"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": -1,
 }
